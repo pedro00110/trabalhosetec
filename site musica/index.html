@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travis Scott</title>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended+Bold"
+        rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+
+</head>
+<style>
+    body {
+        background: url('fundo.jpg') no-repeat center center fixed;
+        background-size: 100vw;
+
+    }
+
+    h1 {
+        font-family: 'Satoshi', sans-serif;
+    }
+
+    .cab {
+        background: black;
+        border: 3px solid white;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: left;
+        width: 12vw;
+        height: 12vh;
+        margin-left: 1rem;
+    }
+
+    .links {
+        gap: 3vh;
+        font-size: 1.3vh;
+        display: flex;
+        margin-left: auto;
+        margin-right: 65vh;
+    }
+
+    .links a {
+        color: black;
+        font-family: "Monument Extended Bold", sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+        background-color: white;
+        border-radius: 30px;
+        padding: 1rem;
+
+    }
+
+    .links a:hover {
+        color: white;
+        transform: scale(1.2);
+        background-color: grey;
+        text-shadow: -0 -0 5px white;
+    }
+
+    .linha {
+        background-color: #fff;
+        width: 60%;
+        height: 10px;
+        border: none;
+        margin-top: 25vh;
+        margin-left: 0;
+        margin-right: auto;
+
+    }
+
+    .linha1 {
+        background-color: #fff;
+        width: 60%;
+        height: 10px;
+        border: none;
+        float: left;
+
+    }
+
+    .nome {
+        text-align: center;
+        font-family: "Michroma", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        text-align: center;
+        font-size: 20vh;
+        color: white;
+        text-shadow: -0 -0 2rem white;
+        margin-top: -3vh;
+        margin-bottom: -0.8vh;
+        animation: glow 2s ease-in-out infinite alternate;
+        text-shadow: 0 0 10px #B026FF;
+    }
+
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 0px #B026FF;
+        }
+
+        to {
+            text-shadow: 0 0 30px #B026FF;
+        }
+    }
+
+    .ap {
+        color: #ffffff;
+        font-family: 'Michroma', sans-serif;
+        text-align: center;
+        font-size: 1.3vh;
+
+    }
+    .footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-top: 2px solid white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1vh;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    padding: 2vh;
+    bottom: 0;
+    }
+</style>
+
+<body>
+    <div class="cab">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="ap">
+            <p>
+                🎵 <strong>Bem-vindo ao universo de Travis Scott!</strong><br>
+                Explore sua trajetória, discografia, estilo e tudo que envolve o astro do hip-hop mais inovador da
+                atualidade. Mergulhe na estética única de La Flame. 🔥
+            </p>
+        </div>
+        <div class="links">
+            <a href="discografia/discografia.html">DISCOGRAFIA</a>
+            <a href="biografia/biografia.html">BIOGRAFIA</a>
+            <a href="carreira/carreira.html">CARREIRA</a>
+            <a href="links/links.html">LINKS</a>
+        </div>
+    </div>
+
+
+    <marquee behavior="alternate" direction="right" scrollamount="40">
+        <hr class="linha">
+    </marquee>
+
+    <h1 class="nome">Travi$ Scott</h1>
+
+    <marquee behavior="alternate" direction="left" scrollamount="40">
+        <hr class="linha1">
+    </marquee>
+
+    <footer class="footer">
+    <p>
+            © 2025 Pedro Henrique Regis de Jesus. Todos os direitos reservados.
+            <br>
+            Conteúdo baseado em informações da
+        
+        <a href="https://pt.wikipedia.org/wiki/Travis_Scott" target="_blank">Wikipédia</a>,
+        <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>,
+        <a href="https://www.flaticon.com/" target="_blank">Flaticon</a> e outras fontes públicas.
+    </p>
+</footer>
+
+</body>
+
+</html>
