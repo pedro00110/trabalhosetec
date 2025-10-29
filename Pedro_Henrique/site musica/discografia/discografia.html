@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discografia</title>
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended+Bold"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        background: url("fundod.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .a1 {
+        font-family: 'Helvetica Neue', sans-serif;
+        color: red;
+        font-style: italic;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        text-shadow: 0 0 5px red;
+    }
+
+    .nome,
+    .nome1 {
+        display: flex;
+        justify-content: center;
+        border-radius: 0%;
+    }
+
+    .nome1 img {
+        height: 10vh;
+        border-radius: 0%;
+        border: 0px;
+        padding-top: 2vh;
+    }
+
+    .nome img {
+        height: 23vh;
+        border-radius: 0%;
+        border: 0px;
+    }
+
+    @font-face {
+        font-family: 'Steadman';
+        src: url('STEADMAN.TTF') format('truetype');
+    }
+
+    .a3 {
+        font-family: 'Steadman', sans-serif;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        text-shadow: 0 0 10px black;
+    }
+
+    @font-face {
+        font-family: 'Tomato Regular';
+        src: url('Tomato Regular.TTF') format('truetype');
+    }
+
+    .a4 {
+        font-family: 'Tomato Regular', sans-serif;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        color: orange;
+        text-shadow: 0 0 5px orange;
+    }
+
+    @font-face {
+        font-family: 'Universal Serif Regular';
+        src: url('Universal Serif.ttf') format('truetype');
+    }
+
+    .a5 {
+        font-family: 'Universal Serif Regular', sans-serif;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        font-style: italic;
+        text-shadow: 0 0 5px black;
+    }
+
+    .t {
+        text-align: justify;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .texto {
+        font-family: 'Satoshi', sans-serif;
+        font-size: 2.5vh;
+        font-weight: 400;
+        padding-left: 50px;
+        padding-right: 20px;
+        color: #000008;
+    }
+
+    .album {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        border: 5px solid #696969;
+        border-radius: 2rem;
+    }
+
+    .capa img {
+        border-radius: 100%;
+        padding: 1rem;
+        transition: 0.3s ease;
+        width: 20vh;
+        margin-left: 1vh;
+        border: 5px solid gray;
+    }
+
+    .capa img:hover {
+        transform: scale(1.1);
+        border: 5px solid white;
+        box-shadow: 0 0 10px white;
+    }
+
+    .fundo {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 2rem;
+        margin: 5vh;
+    }
+
+    .v {
+        display: flex;
+        align-items: center;
+        color: white;
+        font-family: "Monument Extended Bold", sans-serif;
+        border: 5px solid white;
+        background-color: black;
+        padding: 1vh;
+    }
+
+    .v h1 {
+        margin-right: 65vh;
+        margin-left: auto;
+        font-size: 3.5vh;
+    }
+
+    .v img {
+        width: 10vh;
+        border-radius: 40px;
+        transition: 0.3s ease;
+        margin: 1rem;
+
+    }
+
+
+    .v img:hover {
+        transform: scale(1.2);
+        box-shadow: 0 0 10px white;
+    }
+
+    .ap {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #000008;
+        padding: 3vh;
+        border-radius: 2rem;
+        margin: 5vh;
+        border: 5px solid white;
+        font-family: 'Satoshi', sans-serif;
+        font-weight: 400;
+        font-size: 2.5vh;
+        margin-bottom: 15vh
+    }
+
+    .tit {
+        font-family: "Bebas Neue", sans-serif;
+        color: white;
+        font-size: 10vh;
+        margin-bottom: 1vh;
+        margin-left: 5vh;
+    }
+
+    .ti {
+        color: white;
+        font-size: 2vh;
+        margin-bottom: 1vh;
+        margin-left: 5vh;
+        font-weight: bolder;
+        font-family: 'Satoshi', sans-serif;
+    }
+    .footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-top: 2px solid white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1vh;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 2vh;
+    bottom: 0;
+    }
+</style>
+
+<body>
+    <div class="v">
+        <a href="../index.html"><img src="home.png" alt=""></a>
+        <h1>Discografia de Travis Scott</h1>
+    </div>
+
+    <h1 class="ap">Travis Scott, um dos artistas mais inovadores da cena musical contemporânea, construiu uma carreira
+        marcada por sonoridades únicas, estética futurista e colaborações lendárias. Desde suas primeiras mixtapes até
+        álbuns que marcaram gerações, sua discografia é um verdadeiro mergulho em atmosferas intensas, batidas imersivas
+        e letras introspectivas.
+        Nesta página, você encontrará uma jornada completa pela evolução artística de Travis Scott. Explore cada álbum e
+        mixtape em páginas dedicadas, com capas, faixas, curiosidades e os sons que definiram momentos da cultura pop e
+        do hip hop mundial.
+        Clique em um dos álbuns abaixo para descobrir tudo sobre ele. Prepare-se para uma viagem sonora do Owl Pharaoh
+        até Utopia</h1>
+    <h1 class="tit">Álbuns</h1>
+    <h6 class="ti">Clique nas imagems para acessar as músias</h6>
+    <div class="fundo">
+        <div class="album">
+            <div class="capa">
+                <a href="https://open.spotify.com/album/4PWBTB6NYSKQwfo79I3prg?si=mu9VFTqzR-WEztXcvAZayQ"
+                    target="_blank"><img src="Travis_Scott_-_Rodeo.png" alt=""></a>
+            </div>
+            <div class="t">
+                <h1 class="a1">RODEO</h1>
+                <h1 class="texto">Rodeo é o primeiro álbum de estúdio do rapper e produtor musical americano Travis
+                    Scott . O álbum foi lançado em 4 de setembro de 2015, pela Grand Hustle Records e distribuído pela
+                    Epic Records . O álbum conta com participações especiais de Quavo, Future, 2 Chainz, Juicy J, Kacy
+                    Hill, The Weeknd, Swae Lee, Chief Keef, Kanye West, Justin Bieber, Young Thug, Toro y Moi e
+                    Schoolboy Q, enquanto a produção foi fornecida por O próprio Scott, ao lado de vários produtores
+                    musicais de alto nível, como WondaGurl, Allen Ritter, Mike Dean, Metro Boomin, Frank Dukes e Sonny
+                    Digital, entre outros.</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="fundo">
+        <div class="album">
+            <div class="capa">
+                <a href="https://open.spotify.com/album/42WVQWuf1teDysXiOupIZt?si=7c4ih9x1S0O5LIVFJ5TnWA"
+                    target="_blank"><img src="Travis_Scott_-_Birds_in_the_Trap_Sing_McKnight.png" alt=""></a>
+            </div>
+            <div class="t">
+                <div class="nome">
+                    <img src="birds1.png" alt="">
+                </div>
+                <h1 class="texto">
+                    <p>Birds in the Trap Sing McKnight é o segundo álbum de estúdio do rapper estadunidense Travis
+                        Scott. Foi lançado em 2 de setembro de 2016, pela Grand Hustle Records e distribuído pela Epic
+                        Records. Originalmente promovido pela falsa mixtape Days Before Birds, estreou exclusivamente
+                        através do programa de rádio de Travis Scott e Chase B, Wav Radio, no Beats 1 e Apple Music. O
+                        álbum conta com participações especiais de André 3000, Blac Youngsta, Kid Cudi, Nav, 21 Savage,
+                        Kendrick Lamar, Bryson Tiller, Young Thug, Quavo, K. Forest e The Weeknd. A produção foi feita
+                        por vários produtores musicais, incluindo Nav, Vinylz, Mike Dean, Cardo, Frank Dukes, Allen
+                        Ritter e Murda Beatz, entre outros.</p>
+                    Birds in the Trap Sing McKnight foi apoiado por três singles: "Wonderful", "Pick Up the Phone" e
+                    "Goosebumps". O álbum recebeu críticas geralmente favoráveis dos críticos, estreando em primeiro
+                    lugar na Billboard 200 dos EUA, ganhando 88.000 unidades de álbuns na primeira semana.
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="fundo">
+        <div class="album">
+            <div class="capa">
+                <a href="https://open.spotify.com/album/6FED8aeieEnUWwQqAO9zT1?si=eIwdHOBUQeWbwcrssZuwXA"
+                    target="_blank"><img src="Huncho_Jack,_Jack_Huncho_cover.jpg" alt=""></a>
+            </div>
+            <div class="t">
+                <h1 class="a3">Huncho Jack, Jack Huncho</h1>
+                <h1 class="texto">
+                    <p>Huncho Jack, Jack Huncho é o álbum de estréia da dupla americana de hip hop Huncho Jack, que
+                        consiste em Travis Scott e Quavo. O álbum foi lançado em 21 de dezembro de 2017 pela Cactus Jack
+                        Records, Grand Hustle Records, Epic Records, Capitol Records, Motown e Quality Control Music.
+                        Possui participações especiais de outros membros do Migos, Takeoff e Offset. A produção foi
+                        feita por Murda Beatz, Southside e Frank Dukes, entre outros.</p>
+                    Huncho Jack, Jack Huncho alcançou o número três na Billboard 200 dos EUA e recebeu críticas
+                    geralmente favoráveis dos críticos.
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="fundo">
+        <div class="album">
+            <div class="capa">
+                <a href="https://open.spotify.com/album/41GuZcammIkupMPKH2OJ6I?si=1iccOIxQSI6zDVwRh4038Q"
+                    target="_blank"><img src="Travis_Scott_-_Astroworld.png" alt=""></a>
+            </div>
+            <div class="t">
+                <h1 class="a4">Astroworld</h1>
+                <h1 class="texto">
+                    <p>Astroworld é o terceiro álbum de estúdio do rapper norte-americano Travis Scott. Seu lançamento
+                        ocorreu em 3 de agosto de 2018, por intermédio da Cactus Jack Records, Epic Records e Grand
+                        Hustle Records. O álbum conta com a participação de Kid Cudi, Frank Ocean, Drake, The Weeknd,
+                        James Blake, Swae Lee, Gunna, Philip Bailey, Nav, 21 Savage, Quavo, Takeoff, Juice Wrld, Sheck
+                        Wes, Don Toliver e outros.</p>
+                    Promovido por intermédio de quatro singles, "Butterfly Effect", "Sicko Mode", "Yosemite" e Wake Up,
+                    recebeu aclamação crítica e bom desempenho comercial. Na Billboard 200 dos Estados Unidos, o álbum
+                    estreou com 537 000 cópias, sendo 270 000 puras. No país, foi certificado com disco de platina pela
+                    Recording Industry Association of America (RIAA). Recebeu indicação ao Grammy Awards de 2019 como
+                    Melhor Álbum de Rap; "Sicko Mode" recebeu indicações para Melhor Performance de Rap e Melhor Canção
+                    de Rap.
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="fundo">
+        <div class="album">
+            <div class="capa">
+                <a href="https://open.spotify.com/album/1Sf8GsXG32t0jNrX11xqWx?si=MgEAtIL2TwSpBjIfYGDu1A"
+                    target="_blank"><img src="JACKBOYS_-_Album_Cover_by_JACKBOYS_&_Travis_Scott,_December_27,_2019.jpg"
+                        alt=""></a>
+            </div>
+            <div class="t">
+                <h1 class="a5">JackBoys</h1>
+                <h1 class="texto">
+                    <p>Jackboys é uma coletânea colaborativa da gravadora americana Cactus Jack Records, conhecida como
+                        grupo de hip-hop JackBoys, liderada pelo rapper e cantor americano Travis Scott. Foi lançado
+                        pela Cactus Jack Records ao lado da Epic Records em 27 de dezembro de 2019. O álbum conta com
+                        participações especiais de Rosalía, Lil Baby, Sheck Wes, Don Toliver, Quavo, Offset, Young Thug
+                        e Pop Smoke. Jackboys é um coletivo de rappers de hip hop que assinou contrato com o selo Cactus
+                        Jack de Scott, incluindo o próprio Scott, Sheck Wes, Don Toliver, SoFaygo e o DJ Chase B de
+                        Scott.</p> Após a estreia, Jackboys estreou no topo da Billboard 200 dos EUA em 11 de janeiro de
+                    2020, tornando-se o primeiro álbum número um da década de 2020. Foi o terceiro álbum de Scott a
+                    estrear no topo da parada após seu terceiro álbum de estúdio, Astroworld (2018).
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="fundo">
+        <div class="album">
+            <div class="capa">
+                <a href="https://open.spotify.com/album/18NOKLkZETa4sWwLMIm0UZ?si=BgLSZf1mTLa3eitCkVgCeg"
+                    target="_blank"><img src="Travis_Scott_-_Utopia.png" alt=""></a>
+            </div>
+            <div class="t">
+                <div class="nome">
+                    <img src="utopia.png" alt="">
+                </div>
+                <h1 class="texto">
+                    <p>Utopia é o quarto álbum de estúdio do rapper norte-americano Travis Scott. Seu lançamento ocorreu
+                        em 28 de julho de 2023, através da Cactus Jack e da Epic Records. O projeto conta com a
+                        participação de KayCyy, Teezo Touchdown, Bon Iver, Sampha, Drake, Playboi Carti, Sheck Wes,
+                        Beyoncé, Rob49, 21 Savage, The Weeknd, Yung Lean, Young Thug, James Blake, Westside Gunn, Kid
+                        Cudi, Bad Bunny, Future e SZA.</p>
+                    A produção contou com uma variedade de artistas, incluindo Scott e James Blake, além de Buddy Ross,
+                    Vegyn, 30 Roc, Jahaan Sweet, Boi-1da, Vinylz, Tay Keith, BNYX, Oz, The Alchemist, Dom Maker,
+                    Illangelo, DVLP, Metro Boomin e outros. Utopia é o lançamento subsequente do terceiro álbum de
+                    estúdio de Scott, Astroworld (2018), bem como da compilação JackBoys (2019). O álbum foi promovido
+                    por dois singles, "K-Pop" e Delresto (Echoes)", além de um filme, Circus Maximus, lançado um dia
+                    antes.
+                </h1>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <h1 class="tit">Mixtapes</h1>
+    <div class="fundo">
+        <div class="album">
+            <div class="capa">
+                <a href="https://open.spotify.com/intl-pt/album/54Y471E7GNBSOXjZtqONId?si=SVA7whnnTHqt40bcoLv0mQ"
+                    target="_blank"><img src="Album_Cover_of_Travis_Scott's_Day_Before_Rodeo.jpg" alt=""></a>
+            </div>
+            <div class="t">
+                <div class="nome1">
+                    <img src="days.png" alt="">
+                </div>
+                <h1 class="texto">
+                    <p>Days Before Rodeo é a segunda mixtape do rapper americano Travis Scott . A mixtape foi lançada
+                        gratuitamente em 18 de agosto de 2014, pela Grand Hustle . A mixtape conta com participações
+                        especiais de Young Thug, Big Sean, The 1975, Rich Homie Quan, Migos, TI e Peewee Longway. Tambem
+                        contém produção de Metro Boomin, DJ Dahi, Southside, Wondagurl e entre outros.</p>
+                    <p>Em agosto de 2014, Scott anuncia em sua conta no Twitter que lançaria 10 músicas em um mês. No
+                        mesmo dia, ele também tuitou o título deste projeto, Days Before Rodeo, antes de comercializar a
+                        contagem regressiva todos os dias até parar em 10 daquele mes. Em 17 de agosto, Scott lançou a
+                        lista de faixas e a capa deste projeto.</p>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="fundo">
+        <div class="album">
+            <div class="capa">
+                <a href="https://open.spotify.com/playlist/0FxFmzE4EI4xibIs9jaIVN?si=f99a5f0719ad4e53"
+                    target="_blank"><img src="Travis_Scott_Owl_Pharaoh.jpg" alt=""></a>
+            </div>
+            <div class="t">
+                <div class="nome">
+                    <img src="owl.png" alt="">
+                </div>
+                <h1 class="texto">
+                    <p>Tradução automática
+                        Contribuir
+                        Owl Pharaoh é a mixtape de estreia do rapper americano Travis Scott . Foi lançada pela Grand
+                        Hustle Records e Epic Records em 21 de maio de 2013. A mixtape conta com participações especiais
+                        de T.I. , Toro y Moi , ASAP Ferg , Theophilus London , Paul Wall , James Fauntleroy , Wale e
+                        Meek Mill . A produção ficou a cargo de Scott e Toro y Moi, Emile Haynie , J Gramm Beats,
+                        Anthony Kilhoffer , WondaGurl , DJ Dahi , Rey Reel , Rahki , Mike Dean , Young Chop , Lex Luger
+                        , Sak Pase e os Dope Boys. A mixtape foi apoiada por um single, "Upper Echelon", que conta com
+                        T.I. e foi lançada com uma participação adicional exclusiva do 2 Chainz que não aparece na
+                        versão da música na mixtape em 18 de abril de 2013.</p>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>
+            © 2025 Pedro Henrique Regis de Jesus. Todos os direitos reservados.
+            <br>
+            Conteúdo baseado em informações da
+        
+            <a href="https://pt.wikipedia.org/wiki/Travis_Scott" target="_blank">Wikipédia</a>,
+            <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>,
+            <a href="https://www.flaticon.com/" target="_blank">Flaticon</a> e outras fontes públicas.
+        </p>
+    </footer>
+
+</body>
+
+</html>
